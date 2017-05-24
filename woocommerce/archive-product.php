@@ -31,7 +31,7 @@ get_header( 'shop' ); ?>
 			  <div class="small-12 columns text-center">
 			    <div class="leader">
 
-				<h1 class="page-title">Eat my shit!<?php woocommerce_page_title(); ?></h1>
+				<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
 
 				</div>
 			  </div>
