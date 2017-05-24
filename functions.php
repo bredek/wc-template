@@ -69,6 +69,8 @@ function jk_remove_wc_breadcrumbs() {
 remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
 // remove wc product rating
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5 );
+// remove wc single product rating
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
 
 
 
