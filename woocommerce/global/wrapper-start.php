@@ -22,4 +22,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 
-<section class="row">
+<section class="row no-max pad">
